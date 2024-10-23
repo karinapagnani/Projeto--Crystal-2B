@@ -15,6 +15,11 @@ header, footer{
     padding: 20px 80px;
 
 }
+.texto {
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
 a {
     text-decoration: none;
     color: white;
@@ -38,9 +43,17 @@ a {
 }
 .caixa {
     width: 200px;
+    height: 160px;
     border: 1px solid black;
     padding: 10px 15px;
     text-align: center;
+}
+.caixa img {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.caixa h4 {
+    margin-bottom: 10px;
 }
 .diferente {
     margin: 100px 120px;
@@ -56,10 +69,12 @@ h4 {
     background-color: #edecec;
     width: 400px;
     text-align: center;
-    padding: 30px ;
+    height: 350px;
 }    
 .linha {
     height: 30px;
+    width: 400px;
+    margin-bottom: 30px;
 }
 .clara {
     background-color: #f6a256;
@@ -69,11 +84,14 @@ h4 {
 }
 h3 {
     font-size: 25px;
+    text-align: center;
+    margin: 30px ;
 }
 h5 {
     font-size: 20px;
     margin: 7px 0;
     font-weight: 200;
+    text-align: center;
 }
 .cinza {
     color: gray;
@@ -91,7 +109,7 @@ input {
 button {
     font-size: 20px;
     border-radius: 7px;
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 5px, 7px;
 }
 .noticias {
@@ -117,6 +135,8 @@ form {
 label {
     color: white;
     font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 cTitulo {
     font-size: 30px;
@@ -137,4 +157,7 @@ a {
 }
 a:hover {
     color: red;
+}
+.inscricao {
+    text-align: justify;
 }

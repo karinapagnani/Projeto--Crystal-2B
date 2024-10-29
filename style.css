@@ -9,6 +9,12 @@
     align-items: center;
     justify-content: space-between;
 }
+.containerF {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 70px;
+}
 header, footer{
     background-color: #008374;
     color: white;
@@ -58,6 +64,9 @@ a {
 .diferente {
     margin: 100px 120px;
 }
+.texto, .tittle {
+    margin: 0 70px;
+}
 h4 {
     font-weight: 100;
     margin-top: 10px;
@@ -65,16 +74,30 @@ h4 {
 .planos {
     margin: 50px 80px;
 }
+.tittle {
+    text-align: start;
+    margin-bottom: 10px;
+}
 .card {
     background-color: #edecec;
     width: 400px;
     text-align: center;
-    height: 350px;
-}    
-.linha {
-    height: 30px;
-    width: 400px;
+    height: 450px;
     margin-bottom: 30px;
+    margin-top: 60px;
+}    
+.tipo {
+    font-size: 27px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px ;
+}
+.cinza {
+    color: #959292;
+}
+.linha {
+    height: 35px;
+    width: 400px;
 }
 .clara {
     background-color: #f6a256;
@@ -85,11 +108,11 @@ h4 {
 h3 {
     font-size: 25px;
     text-align: center;
-    margin: 30px ;
+    margin-bottom: 28px ;
 }
 h5 {
     font-size: 20px;
-    margin: 7px 0;
+    margin: 28px 0;
     font-weight: 200;
     text-align: center;
 }
@@ -102,7 +125,7 @@ footer .menu {
     padding: 50px;
 }
 input {
-    width: 200px;
+    width: 330px;
     font-size: 20px;
     border-radius: 7px;
 }
@@ -113,7 +136,7 @@ button {
     padding: 5px, 7px;
 }
 .noticias {
-    width: 350px;
+    width: 500px;
 }
 .noticias h3{
     font-weight: 200;
@@ -140,6 +163,7 @@ label {
 }
 cTitulo {
     font-size: 30px;
+    text-align: start;
 }
 cTexto {
     font-size: 24px;
